@@ -1,0 +1,4 @@
+{
+    "apiUrl": "http://nflarrest.com/api/v1/team/&start_date=2019-01-01&limit=10",
+    "textfile": "assets/textfile.txt"
+}

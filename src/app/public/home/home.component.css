@@ -1,0 +1,45 @@
+
+li a:hover {
+    color: #6e6d0893;
+}
+
+
+@media only screen and (max-width: 798px) {
+    ul {
+        max-width: 798px;
+        justify-content: center;
+        list-style-type: none;
+        text-align: center;
+        padding-top: 25px;
+    }
+    li a {
+        width: 100%;
+        display: block;
+        font-size: 2.0em;
+        font-family: 'Raleway',sans-serif;
+        text-decoration: none;
+        text-align: center;
+        padding: 15% 5%; /*change this for phone spacing vert*/
+    }
+  }
+
+  @media screen and (min-width: 799px) {
+    ul {
+        position: fixed;
+        left: 27%;
+        top: 15%;
+        list-style-type: none;
+    }
+    li a {
+        display: block;
+        font-size: 3.0em;
+        font-family: 'Raleway',sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #568537;
+        padding: 10px 5px; /*change this for reg spacing vert*/
+    }
+    li a:hover {
+        color: black
+    }
+  }
